@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Ragnar Lothbrok",
+        "image": "",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "name": "Lagertha",
+        "image": "",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "name": "Rollo",
+        "image": "",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "name": "Floki",
+        "image": "",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "name": "Bjorn Ironside",
+        "image": "",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "name": "Ivar the Boneless",
+        "image": "",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "name": "Ubbe",
+        "image": "",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "name": "Hvitserk",
+        "image": "",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "name": "Sigurd",
+        "image": "",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "name": "The Seer",
+        "image": "",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "name": "Princess Aslaug",
+        "image": "",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "name": "Astrid",
+        "image": "",
+        "clicked": false
+    }
+]
