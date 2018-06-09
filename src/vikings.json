@@ -2,73 +2,73 @@
     {
         "id": 1,
         "name": "Ragnar Lothbrok",
-        "image": "",
+        "image": "./images/ragnar.jpg",
         "clicked": false
     },
     {
         "id": 2,
         "name": "Lagertha",
-        "image": "",
+        "image": "./images/Lagertha.jpg",
         "clicked": false
     },
     {
         "id": 3,
         "name": "Rollo",
-        "image": "",
+        "image": "./images/rollo.jpg",
         "clicked": false
     },
     {
         "id": 4,
         "name": "Floki",
-        "image": "",
+        "image": "./images/floki.jpeg",
         "clicked": false
     },
     {
         "id": 5,
         "name": "Bjorn Ironside",
-        "image": "",
+        "image": "./images/Bjorn.jpg",
         "clicked": false
     },
     {
         "id": 6,
         "name": "Ivar the Boneless",
-        "image": "",
+        "image": "./images/Ivar.jpg",
         "clicked": false
     },
     {
         "id": 7,
         "name": "Ubbe",
-        "image": "",
+        "image": "./images/ubbe.jpg",
         "clicked": false
     },
     {
         "id": 8,
         "name": "Hvitserk",
-        "image": "",
+        "image": "./images/hvitserk.jpg",
         "clicked": false
     },
     {
         "id": 9,
         "name": "Sigurd",
-        "image": "",
+        "image": "./images/Sigurd.jpg",
         "clicked": false
     },
     {
         "id": 10,
         "name": "The Seer",
-        "image": "",
+        "image": "./images/theseer.jpg",
         "clicked": false
     },
     {
         "id": 11,
         "name": "Princess Aslaug",
-        "image": "",
+        "image": "./images/Aslaug.jpg",
         "clicked": false
     },
     {
         "id": 12,
         "name": "Astrid",
-        "image": "",
+        "image": "./images/Astrid.jpg",
         "clicked": false
     }
 ]
