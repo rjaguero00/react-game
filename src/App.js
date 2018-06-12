@@ -1,14 +1,24 @@
 import React, { Component } from 'react';
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import Cards from './components/Cards';
+import Footer from './components/Footer';
 import vikings from "./vikings.json";
 import './App.css';
-import Cards from './components/Cards';
+
 
 
 class App extends Component {
   state = {
     vikings: vikings
+  }
+
+  shuffle = (arr) => {
+    const newArr = arr.sort(function () { return 0.5 - Math.random() });
+    this.setState({
+      Cards: newArr
+    })
+    return newArr
   }
 
 
@@ -18,7 +28,7 @@ class App extends Component {
         image={viking.image}
         name={viking.name}
         key={viking.id}
-      // onClick={this.handleShuffleChararcters}
+        onClick={this.newArr}
       />
     );
   }
@@ -33,6 +43,7 @@ class App extends Component {
         <div className="content">
           {this.handleRenderVikings()}
         </div>
+        <Footer />
 
 
       </div>

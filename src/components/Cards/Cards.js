@@ -7,7 +7,7 @@ const Cards = ({ name, image, onClick }) =>
         src={image}
         alt={name}
         name={name}
-        onClick={() => onClick(name)}
+        onClick={() => onClick()}
     />;
 
 export default Cards;
