@@ -13,10 +13,10 @@ class App extends Component {
     vikings: vikings
   }
 
-  shuffle = (arr) => {
-    const newArr = arr.sort(function () { return 0.5 - Math.random() });
+  shuffle = () => {
+    const newArr = this.state.vikings.sort(function () { return 0.5 - Math.random() });
     this.setState({
-      Cards: newArr
+      vikings: newArr
     })
     return newArr
   }
@@ -28,7 +28,7 @@ class App extends Component {
         image={viking.image}
         name={viking.name}
         key={viking.id}
-        onClick={this.newArr}
+        onClick={this.shuffle}
       />
     );
   }
