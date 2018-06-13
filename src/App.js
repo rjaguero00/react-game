@@ -10,8 +10,10 @@ import './App.css';
 
 class App extends Component {
   state = {
-    vikings: vikings
-  }
+    vikings: vikings,
+    score: 0,
+    clicked: []
+  };
 
   shuffle = () => {
     const newArr = this.state.vikings.sort(function () { return 0.5 - Math.random() });
@@ -19,6 +21,39 @@ class App extends Component {
       vikings: newArr
     })
     return newArr
+  }
+
+  handleVikingClicked = (e) => {
+    const vikingName = e.target.name
+    const vikingId = e.target.id
+    if (this.state.clicked.includes(vikingId)) {
+      alert(`Sorry, you've already selected ${vikingName}\n\n`)
+      this.setState({
+        score: 0,
+        clicked: [],
+      })
+
+
+    }
+    else {
+      const vikingArray = this.state.clicked
+      vikingArray.push(vikingId)
+      this.setState({
+        score: this.state.score + 1,
+        clicked: vikingArray
+      })
+
+      if (this.state.score === 12) {
+        alert('You Won!');
+        this.setState({
+          score: 0,
+          clicked: []
+        })
+      }
+
+
+    }
+    this.shuffle();
   }
 
 
@@ -29,6 +64,7 @@ class App extends Component {
         name={viking.name}
         key={viking.id}
         onClick={this.shuffle}
+        handleVikingClicked={this.handleVikingClicked}
       />
     );
   }
@@ -37,7 +73,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar />
+        <Navbar
+          score={this.state.score}
+        />
         <Header />
 
         <div className="content">

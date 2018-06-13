@@ -2,73 +2,61 @@
     {
         "id": 1,
         "name": "Ragnar Lothbrok",
-        "image": "./images/ragnar.jpg",
-        "clicked": false
+        "image": "./images/ragnar.jpg"
     },
     {
         "id": 2,
         "name": "Lagertha",
-        "image": "./images/Lagertha.jpg",
-        "clicked": false
+        "image": "./images/Lagertha.jpg"
     },
     {
         "id": 3,
         "name": "Rollo",
-        "image": "./images/rollo.jpg",
-        "clicked": false
+        "image": "./images/rollo.jpg"
     },
     {
         "id": 4,
         "name": "Floki",
-        "image": "./images/floki.jpeg",
-        "clicked": false
+        "image": "./images/floki.jpeg"
     },
     {
         "id": 5,
         "name": "Bjorn Ironside",
-        "image": "./images/Bjorn.jpg",
-        "clicked": false
+        "image": "./images/Bjorn.jpg"
     },
     {
         "id": 6,
         "name": "Ivar the Boneless",
-        "image": "./images/Ivar.jpg",
-        "clicked": false
+        "image": "./images/Ivar.jpg"
     },
     {
         "id": 7,
         "name": "Ubbe",
-        "image": "./images/ubbe.jpg",
-        "clicked": false
+        "image": "./images/ubbe.jpg"
     },
     {
         "id": 8,
         "name": "Hvitserk",
-        "image": "./images/hvitserk.jpg",
-        "clicked": false
+        "image": "./images/hvitserk.jpg"
     },
     {
         "id": 9,
         "name": "Sigurd",
-        "image": "./images/Sigurd.jpg",
-        "clicked": false
+        "image": "./images/Sigurd.jpg"
     },
     {
         "id": 10,
         "name": "The Seer",
-        "image": "./images/theseer.jpg",
-        "clicked": false
+        "image": "./images/theseer.jpg"
     },
     {
         "id": 11,
         "name": "Princess Aslaug",
-        "image": "./images/Aslaug.jpg",
-        "clicked": false
+        "image": "./images/Aslaug.jpg"
     },
     {
         "id": 12,
         "name": "Astrid",
-        "image": "./images/Astrid.jpg",
-        "clicked": false
+        "image": "./images/Astrid.jpg"
     }
 ]

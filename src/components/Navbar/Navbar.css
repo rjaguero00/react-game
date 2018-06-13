@@ -1,18 +1,12 @@
 .navbar {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    padding: 1.5rem 1rem;
-    border-radius: 10px;
+    background-color: #a51414;
+    min-height: 70px;
+    position: fixed;
+    width: 100%;
+    -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+    color: #fff;
+    font-size: calc(10px + 14 * (100vw - 320px)/ 800);
+    z-index: 99;
+    white-space: nowrap;
 }
-
-/* .navbar-brand mb-0 h2 {
-text-align: center;
-margin-right: -50px;
-} */
