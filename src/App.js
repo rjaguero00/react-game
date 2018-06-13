@@ -12,6 +12,7 @@ class App extends Component {
   state = {
     vikings: vikings,
     score: 0,
+    message: "Click a Viking to begin!",
     clicked: []
   };
 
@@ -27,9 +28,10 @@ class App extends Component {
     const vikingName = e.target.name
     const vikingId = e.target.id
     if (this.state.clicked.includes(vikingId)) {
-      alert(`Sorry, you've already selected ${vikingName}\n\n`)
+      // alert(`Sorry, you've already selected ${vikingName}\n\n`)
       this.setState({
         score: 0,
+        message: `You've already selected ${vikingName}`,
         clicked: [],
       })
 
@@ -40,7 +42,8 @@ class App extends Component {
       vikingArray.push(vikingId)
       this.setState({
         score: this.state.score + 1,
-        clicked: vikingArray
+        clicked: vikingArray,
+        message: "You've guessed correctly"
       })
 
       if (this.state.score === 12) {
@@ -75,6 +78,7 @@ class App extends Component {
       <div className="App">
         <Navbar
           score={this.state.score}
+          message={this.state.message}
         />
         <Header />
 
