@@ -63,8 +63,8 @@ class App extends Component {
         image={viking.image}
         name={viking.name}
         key={viking.id}
-        onClick={this.shuffle}
-        handleVikingClicked={this.handleVikingClicked}
+        id={viking.id}
+        onClick={this.handleVikingClicked}
       />
     );
   }
