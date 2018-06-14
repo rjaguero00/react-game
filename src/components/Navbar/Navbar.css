@@ -1,3 +1,6 @@
+nav.navbar{
+    color: white;
+}
 .navbar {
     background-color: #a51414;
     min-height: 70px;
@@ -5,7 +8,7 @@
     width: 100%;
     -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
     box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
-    color: #fff;
+    /* color: #fff; */
     font-size: 30px;
     z-index: 99;
     white-space: nowrap;
