@@ -46,11 +46,11 @@ class App extends Component {
         message: "You've guessed correctly"
       })
 
-      if (this.state.score === 12) {
-        alert('You Won!');
+      if (this.state.score === 11) {
         this.setState({
           score: 0,
-          clicked: []
+          clicked: [],
+          message: "You Win!"
         })
       }
 
